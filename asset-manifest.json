@@ -1,23 +1,22 @@
 {
   "files": {
     "main.css": "/PrecisePK-Assignment-frontend/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/PrecisePK-Assignment-frontend/static/js/main.a3276e46.chunk.js",
-    "main.js.map": "/PrecisePK-Assignment-frontend/static/js/main.a3276e46.chunk.js.map",
-    "runtime-main.js": "/PrecisePK-Assignment-frontend/static/js/runtime-main.22d7f8f7.js",
-    "runtime-main.js.map": "/PrecisePK-Assignment-frontend/static/js/runtime-main.22d7f8f7.js.map",
-    "static/js/2.42b0c38d.chunk.js": "/PrecisePK-Assignment-frontend/static/js/2.42b0c38d.chunk.js",
-    "static/js/2.42b0c38d.chunk.js.map": "/PrecisePK-Assignment-frontend/static/js/2.42b0c38d.chunk.js.map",
-    "static/js/3.9b9ffb57.chunk.js": "/PrecisePK-Assignment-frontend/static/js/3.9b9ffb57.chunk.js",
-    "static/js/3.9b9ffb57.chunk.js.map": "/PrecisePK-Assignment-frontend/static/js/3.9b9ffb57.chunk.js.map",
+    "main.js": "/PrecisePK-Assignment-frontend/static/js/main.dec2c7f3.chunk.js",
+    "main.js.map": "/PrecisePK-Assignment-frontend/static/js/main.dec2c7f3.chunk.js.map",
+    "runtime-main.js": "/PrecisePK-Assignment-frontend/static/js/runtime-main.a81d236f.js",
+    "runtime-main.js.map": "/PrecisePK-Assignment-frontend/static/js/runtime-main.a81d236f.js.map",
+    "static/js/2.1dde5f8d.chunk.js": "/PrecisePK-Assignment-frontend/static/js/2.1dde5f8d.chunk.js",
+    "static/js/2.1dde5f8d.chunk.js.map": "/PrecisePK-Assignment-frontend/static/js/2.1dde5f8d.chunk.js.map",
+    "static/js/3.8a8f0ca1.chunk.js": "/PrecisePK-Assignment-frontend/static/js/3.8a8f0ca1.chunk.js",
+    "static/js/3.8a8f0ca1.chunk.js.map": "/PrecisePK-Assignment-frontend/static/js/3.8a8f0ca1.chunk.js.map",
     "index.html": "/PrecisePK-Assignment-frontend/index.html",
     "static/css/main.9d5b29c0.chunk.css.map": "/PrecisePK-Assignment-frontend/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.42b0c38d.chunk.js.LICENSE.txt": "/PrecisePK-Assignment-frontend/static/js/2.42b0c38d.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/PrecisePK-Assignment-frontend/static/media/logo.6ce24c58.svg"
+    "static/js/2.1dde5f8d.chunk.js.LICENSE.txt": "/PrecisePK-Assignment-frontend/static/js/2.1dde5f8d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.22d7f8f7.js",
-    "static/js/2.42b0c38d.chunk.js",
+    "static/js/runtime-main.a81d236f.js",
+    "static/js/2.1dde5f8d.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.a3276e46.chunk.js"
+    "static/js/main.dec2c7f3.chunk.js"
   ]
 }
