@@ -5,9 +5,9 @@ import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import Dialog from "@material-ui/core/Dialog";
-import { blue } from "@material-ui/core/colors";
 import { useDispatch, useSelector } from "react-redux";
 import axios from "axios";
+import { api } from "../config/config";
 
 function AddPokemonDialog(props) {
   const dispatch = useDispatch();
@@ -22,7 +22,7 @@ function AddPokemonDialog(props) {
     onClose(pokemon);
     dispatch({
       type: "UPDATE_POKEMON",
-      payload: axios.put(`http://localhost:8080/trainer/${trainer_id}`, {
+      payload: axios.put(`${api}/trainer/${trainer_id}`, {
         method: "add",
         pokemon: pokemon,
       }),

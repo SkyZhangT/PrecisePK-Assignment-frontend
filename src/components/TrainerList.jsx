@@ -2,7 +2,6 @@ import { makeStyles, Container, Grid, Fab } from "@material-ui/core";
 import { useSelector, useDispatch } from "react-redux";
 import TrainerCard from "./TrainerCard";
 import EmptyCard from "./EmptyCard";
-import { useState } from "react";
 
 const useStyles = makeStyles({
   root: {

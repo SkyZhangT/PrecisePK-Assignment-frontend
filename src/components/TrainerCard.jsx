@@ -11,9 +11,9 @@ import AddPokemonDialog from "./AddPokemon";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import ListItemText from "@material-ui/core/ListItemText";
-import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import axios from "axios";
+import { api } from "../config/config";
 
 const useStyles = makeStyles({
   root: {
@@ -44,7 +44,7 @@ export default function TrainerCard(props) {
   const handleRemovePokemon = (pokemon) => {
     dispatch({
       type: "UPDATE_POKEMON",
-      payload: axios.put(`http://localhost:8080/trainer/${data._id}`, {
+      payload: axios.put(`${api}/trainer/${data._id}`, {
         method: "remove",
         pokemon: pokemon,
       }),
@@ -64,7 +64,7 @@ export default function TrainerCard(props) {
   const handleDeleteClick = () => {
     dispatch({
       type: "DELETE_TRAINER",
-      payload: axios.delete(`http://localhost:8080/trainer/${data._id}`),
+      payload: axios.delete(`${api}/trainer/${data._id}`),
     });
   };
 

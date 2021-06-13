@@ -9,6 +9,7 @@ import Typography from "@material-ui/core/Typography";
 import { useDispatch } from "react-redux";
 import axios from "axios";
 import { useState } from "react";
+import { api } from "../config/config";
 
 const useStyles = makeStyles({
   root: {
@@ -27,7 +28,7 @@ export default function EmptyCard(props) {
   const handleAddClick = () => {
     dispatch({
       type: "ADD_TRAINER",
-      payload: axios.post("http://localhost:8080/trainer", { name: name }),
+      payload: axios.post(`${api}/trainer`, { name: name }),
     });
     dispatch({ type: "CHANGE_BKG_COLOR", payload: "#ff7961" });
   };
